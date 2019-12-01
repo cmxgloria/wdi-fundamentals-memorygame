@@ -7,13 +7,13 @@ div {
 }
 
 #name {
-	background: white;
+	background: red;
 }
 
 #hex {
-	background: #ffffff;
+	background: #ff0000;
 }
 
 #rgb {
-	background: rgb(255,255,255);
+	background: rgb(255,150,0);
 }
