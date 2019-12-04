@@ -52,6 +52,7 @@ isMovieKidFriendly = "Movie is kid-friendly.";
 isMovieKidFriendly;
 // => "Pick a different movie."
 
-// var movieCategory = "scary";
+// ternary
+var movieCategory = "scary";
 var isMovieKidFriendly = movieCategory==='scary' || movieCategory ===violent ? "Pick a different movie" : "Movie is kid-friendly. ";
 isMovieKidFriendly;
