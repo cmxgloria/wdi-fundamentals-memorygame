@@ -49,3 +49,25 @@ function orderComplete(product, orderAmount) {
 orderComplete("Hanging Planter", 35);
 orderComplete("Shell Mirror", 15);
 orderComplete("Modern Shag Rug", 75);
+
+//parameter and return statement
+function printLatteTotal() {
+  const price = 4.5;
+  const salesTaxRate = 0.1;
+  const totalAmount = price + price * salesTaxRate;
+  console.log("The total is $" + totalAmount);
+}
+
+printLatteTotal();
+
+//Exiting a Function
+function rockAndRoll(muted) {
+  const song = “It’s only Rock ‘N’ Roll”;
+  const artist = “The Rolling Stones”;
+  if (muted === true) {
+    return; // Here we use ‘return’ as a way to exit a function, instead of returning any value
+  }
+  console.log(“Now playing: “ + song + “ by “ + artist);
+};
+
+rockAndRoll(true);
